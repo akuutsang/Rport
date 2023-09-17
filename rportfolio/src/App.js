@@ -1,11 +1,9 @@
 import './App.css';
-
+import Intro from './components/intro/Intro'
 function App() {
   return (
     <div className="App">
-      <p className="text-xs font-bold underline">
-      Hello u
-      </p>
+      <Intro />
     </div>
   );
 }
