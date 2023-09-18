@@ -1,12 +1,13 @@
 import React from 'react'
 import './intro.css'
+import Winnie from '../../img/winnie.png'
 
 function Intro() {
   return (
     <div className='intro'>
         <div className="introLeft">
             <div className="name-container">
-                <h2 className='welcome'>Welcome to my portfolio! My name is</h2>
+                <h2 className='welcome'>Hello! My name is</h2>
                 <h1 className='name'>Winnifred Kaze</h1>
                 <div className="introTitle">
                     <div className="introTitleContainer">
@@ -16,9 +17,15 @@ function Intro() {
                         <div className="introTitleItem">mother</div>
                     </div>
                 </div>
+                <div className="introDescription">
+                   <p> I am a frontEnd developer, i design stylish, modern responsive  <br />  websites for all types of customers, be it online store or any type of  <br /> web services
+                   </p>
+                </div>
             </div>
         </div>
-        <div className="introRight">rightt</div>
+        <div className="introRight">
+            <img src={Winnie} alt="" className='introImage' />
+        </div>
     </div>
   )
 }
