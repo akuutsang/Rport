@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import Winnie from '../../img/winnie.png'
+import Winnie from '../../img/me.png'
 
 function Intro() {
   return (
@@ -18,12 +18,13 @@ function Intro() {
                     </div>
                 </div>
                 <div className="introDescription">
-                   <p> I am a frontEnd developer, i design stylish, modern responsive  <br />  websites for all types of customers, be it online store or any type of  <br /> web services
+                   <p> I am a frontEnd developer, i design stylish, modern responsive  <br />  websites for all types of customers, be it online store or any type of web services
                    </p>
-                </div>
+                </div>   
             </div>
-        </div>
+          </div>
         <div className="introRight">
+            <div className="introBg"></div>
             <img src={Winnie} alt="" className='introImage' />
         </div>
     </div>
