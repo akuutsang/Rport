@@ -5,7 +5,9 @@ import React from 'react'
 function Nav() {
   return (
     <div className="navSection">
-        <div className="NavLeft">left</div>
+        <div className="NavLeft">
+          <div className="logo">Akutsang</div>
+        </div>
         <div className="navRight">
             <div className="home">Home</div>
             <div className="about">About</div>
