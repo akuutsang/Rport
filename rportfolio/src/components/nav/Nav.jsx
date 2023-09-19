@@ -1,6 +1,7 @@
 import "./nav.css"
+import { Link } from "react-router-dom"
 
-import React from 'react'
+import React from "react"
 
 function Nav() {
   return (
@@ -9,10 +10,10 @@ function Nav() {
           <div className="logo">Akutsang</div>
         </div>
         <div className="navRight">
-            <div className="home">Home</div>
-            <div className="about">About</div>
-            <div className="skills">Skills</div>
-            <div className="contact">Contact</div>
+            <Link to="/" className="home">Home</Link>
+            <Link className="about">About</Link>
+            <Link className="skills">Skills</Link>
+            <Link className="contact">Contact</Link>
             <div className="themeSvg">
             <svg
                       width="30"

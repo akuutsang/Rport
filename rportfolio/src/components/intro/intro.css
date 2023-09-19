@@ -1,6 +1,7 @@
 .intro{
     display: flex;
     height: 100vh;
+    /* background-color:rgb(173, 119, 219) ; */
 }
 
 .introLeft{
@@ -15,12 +16,21 @@
     position: relative;
 }
 
+.welcome{
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .name-container{
     padding: 50px;
     height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.name{
+    text-shadow: 2px 2px rgb(173, 119, 219);
 }
 
 .name{
@@ -61,24 +71,22 @@
         transform: translateY(-150px);
     }
 
+}.introDescription{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
+
+
  .introImage{
     height: 100%;
     object-fit: cover;
     position: absolute;
  }
 
-.introScroll{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    bottom: 20px;
-}
-
 .introBg{
     -webkit-clip-path: polygon(100% 0%, 100% 68%, 100% 100%, 25% 100%, 0 75%, 25% 0%);
     clip-path: polygon(100% 0%, 100% 68%, 100% 100%, 25% 100%, 0 75%, 25% 0%);
-     background-color: rgb(143, 54, 143);
+     background-color: rgb(118, 4, 130);
      width: 100%;
      height: 100%;
      position: absolute;

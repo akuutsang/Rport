@@ -5,6 +5,7 @@
     background-color: rgb(197, 173, 219);
     align-items: center;
     cursor: pointer;
+    position: sticky;
 }
 
 .NavLeft{
@@ -33,5 +34,28 @@
     justify-content: space-between;
     font-family:'Montserrat', sans-serif;
     font-weight: 600;
+}
+.home{
+    text-decoration: none;
+}
+
+.about{
+    text-decoration: none;
+}
+
+.skills{
+    text-decoration: none;
+}
+
+.contact{
+    text-decoration: none;
+}
+
+
+
+.introScroll{
+    width: 30px;
+    height: 30px;
+    bottom: 20px;
 }
 
