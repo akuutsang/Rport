@@ -1,7 +1,6 @@
 .intro{
     display: flex;
     height: 100vh;
-    /* background-color:rgb(173, 119, 219) ; */
 }
 
 .introLeft{
@@ -17,7 +16,8 @@
 }
 
 .welcome{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
 }
 
 
@@ -29,14 +29,12 @@
     justify-content: space-between;
 }
 
-.name{
-    text-shadow: 2px 2px rgb(173, 119, 219);
-}
 
 .name{
     font-size: 60px;
     font-weight: 900;
     font-family:'Montserrat', sans-serif;
+    text-shadow: 2px 2px rgb(173, 119, 219);
 }
 
 
@@ -72,7 +70,7 @@
     }
 
 }.introDescription{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code', sans-serif;
     font-weight: 600;
 }
 

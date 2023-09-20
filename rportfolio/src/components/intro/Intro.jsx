@@ -7,8 +7,8 @@ function Intro() {
     <div className='intro'>
         <div className="introLeft">
             <div className="name-container">
-                <h2 className='welcome'>Hello! My name is</h2>
-                <h1 className='name'>Winnifred Kaze</h1>
+                <p className='welcome'>Hello! My name is</p>
+                <h1 className='name'> Winnifred Kaze</h1>
                 <div className="introTitle">
                     <div className="introTitleContainer">
                         <div className="introTitleItem">Web developer</div>

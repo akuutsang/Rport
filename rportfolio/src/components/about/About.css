@@ -1,0 +1,70 @@
+.About {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .About-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+
+}
+  
+  .About-right {
+    flex: 1;
+  }
+  
+  .About-card.bg {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+     background-color: rgb(118, 4, 130)
+  }
+  
+  .About-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .About-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .AboutTitle{
+    font-family:'Montserrat' ;
+    font-size:600 ;
+  }
+
+  .firstSpan{
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 900;
+    font-size: 30px;
+    background: linear-gradient(90deg, rgb(227, 161, 235), rgb(84, 1, 93));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .AboutSubTitle{
+    font-family: 'Poppings', sans-serif ;
+    font-size: 30px;
+
+  }
+
+
+  .SecondSpan{
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 900;
+    font-size: 30px;
+    background: linear-gradient(90deg, rgb(227, 161, 235), rgb(84, 1, 93));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
