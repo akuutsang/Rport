@@ -6,7 +6,11 @@ import React from 'react'
 function Skills() {
   return (
     <div className="Skills">
-        
+        <div className="window">
+          <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
+        </div>
     </div>
   )
 }

@@ -1,0 +1,29 @@
+.SkillsList{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.SkillsListText{
+    width: 65%;
+}
+
+.SkillsListTitle{
+    font-size: 80px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+.SkillsListDes{
+    margin: 20px 0px;
+}
+
+.Lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
