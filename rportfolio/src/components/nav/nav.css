@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: row;
     height: 70px;
-    background-color: rgb(197, 173, 219);
+    border-bottom: 2px solid rgb(118, 4, 130);
+    background-color: #fff;
     align-items: center;
     cursor: pointer;
     position: sticky;

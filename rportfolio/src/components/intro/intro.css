@@ -16,8 +16,12 @@
 }
 
 .welcome{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif ;
+    font-weight: 900;
     font-size: 30px;
+    background: linear-gradient(90deg, rgb(227, 161, 235), rgb(84, 1, 93), rgb(8, 8, 8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -40,21 +44,20 @@
 
 .introTitle{
     line-height: 50px;
-    height: 50px;
+    height: 70px;
     font-size: 30px;
+    font-weight: 900;
     display: flex;
     align-items: center;
     overflow: hidden;
     font-family:'Montserrat', sans-serif;
+    text-shadow: 2px 2px rgb(173, 119, 219);
 
 }
 
 .introTitleContainer{
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
-    font-family:'Montserrat', sans-serif;
-    font-weight: 600;
-    color: rgb(143, 54, 143);
 }
 
 @keyframes move {
@@ -72,6 +75,9 @@
 }.introDescription{
     font-family: 'Source Code', sans-serif;
     font-weight: 600;
+    background: linear-gradient(90deg, rgb(227, 161, 235), rgb(120, 81, 125));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
