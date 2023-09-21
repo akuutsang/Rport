@@ -1,9 +1,6 @@
 import "./skills.css"
 
-
-import React from 'react'
-
-function Skills() {
+const Skills = ({img, link}) => {
   return (
     <div className="Skills">
         <div className="window">
@@ -11,11 +8,11 @@ function Skills() {
           <div className="circle"></div>
           <div className="circle"></div>
         </div>
-        <a href="http://lama.dev" target="_blank" rel="noreferrer">
-          <img src="" alt="" className="SkillsImg" />
-        </a>
+        <a href={link} target="_blank" rel="noreferrer">
+          <img src={img} alt="" className="SkillsImg" />
+        </a> 
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

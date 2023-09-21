@@ -1,12 +1,8 @@
 import "./skillsList.css";
-import Skills from '../skills/Skills';
+import  Skills  from "../skills/Skills"
+import { skills } from "../../data";
 
-
-
-
-import React from 'react'
-
-function SkillsList() {
+const SkillsList = () => {
   return (
     <div className="SkillsList">
         <div className="SkillsListText">
@@ -14,14 +10,12 @@ function SkillsList() {
             <p className="SkillsListDes">Life is a school you never graduate from, everyday is an opportunity to learn new things. <br /> I am in the business of learning and getting better at what i do, till the day i die. <br /> The sky is the starting point, the possibilities are limitless</p>
         </div>
         <div className="Lists">
-            <Skills />
-            <Skills />
-            <Skills />
-            <Skills />
-            <Skills />
+            {skills.map((item) => (
+            <Skills key={item.id} img={item.img} link={item.link}/>
+            ))}; 
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default SkillsList
+export default SkillsList;

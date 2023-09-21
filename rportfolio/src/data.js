@@ -1,32 +1,28 @@
 export const skills = [
-    {
-        id:1,
-        img:"rportfolio/public/assets/images/calculator.png",
-        link:"https://akuutsang.github.io/Calculator/",
-    },
+    
     {
         id:2,
-        img:"rportfolio/public/assets/images/adminDashboard.png",
+        img:"assets/adminDashboard.png",
         link:"https://deft-faun-58342b.netlify.app/",
     },
     {
         id:3,
-        img:"rportfolio/public/assets/images/capstoneProject.png",
+        img:"assets/capstoneProject.png",
         link:"https://phildeoner.github.io/Capstone-Project/index.html",
     },
     {
         id:4,
-        img:"rportfolio/public/assets/images/sketchPad.png",
+        img:"assets/sketchPad.png",
         link:"https://github.com/akuutsang/Etch-A-Sketch",
     },
     {
-        id:5,
-        img:"rportfolio/public/assets/images/prs.png",
-        link:"https://github.com/akuutsang/Team-Project-PRS",
+        id:1,
+        img:"assets/calculator.png",
+        link:"https://akuutsang.github.io/Calculator/",
     },
-    // {
-    //     id:6,
-    //     img:"",
-    //     link:"https://deft-faun-58342b.netlify.app/",
-    // },
+    {
+        id:5,
+        img:"assets/prs.png",
+        link:"rportfolio/public/assets/prs.png",
+    },
 ]

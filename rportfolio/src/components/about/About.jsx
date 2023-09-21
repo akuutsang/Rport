@@ -1,5 +1,5 @@
 import "./About.css";
-import me from "../../img/blackTheme.jpeg"
+import me from "../../images/blackTheme.jpeg"
 
 import React from 'react'
 

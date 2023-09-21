@@ -1,6 +1,6 @@
 import React from 'react'
 import './intro.css'
-import Winnie from '../../img/me.png'
+import Winnie from '../../images/me.png'
 
 function Intro() {
   return (
