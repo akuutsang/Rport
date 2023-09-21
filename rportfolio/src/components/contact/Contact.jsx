@@ -1,13 +1,20 @@
 import './contact.css';
 
-import React, { Component } from 'react'
+import React from 'react'
 
-export class Contact extends Component {
-  render() {
-    return (
-      <div className='Contact'>Contact</div>
-    )
-  }
+export default function Contact() {
+  return (
+    <div className='Contact'>
+        <div className="ContactBg"></div>
+        <div className="ContactContainer">
+            <div className="ContactLeft">
+                <div className="ContactTitle">
+                    <h1>Let's talk about your project</h1>
+                    <div className="ContactInfo"></div>
+                </div>
+            </div>
+            <div className="ContactRight"></div>
+        </div>
+    </div>
+  )
 }
-
-export default Contact

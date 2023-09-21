@@ -1,0 +1,26 @@
+.Contact{
+    height: 100vh;
+    position: relative;
+}
+
+.ContactBg{
+    position: absolute;
+    background-color: rgb(118, 4, 130);
+    height: 100%;
+    width: 50%;
+    -webkit-clip-path: polygon(50% 0%, 22% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 22% 50%, 50% 100%, 0% 50%);
+}
+
+.ContactContainer{
+    padding: 20px;
+    display: flex;
+}
+
+.ContactLeft{
+    flex: 1;
+}
+
+.ContactRight{
+    flex: 1;
+}
