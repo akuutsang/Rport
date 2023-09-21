@@ -11,6 +11,9 @@ function Skills() {
           <div className="circle"></div>
           <div className="circle"></div>
         </div>
+        <a href="http://lama.dev" target="_blank" rel="noreferrer">
+          <img src="" alt="" className="SkillsImg" />
+        </a>
     </div>
   )
 }

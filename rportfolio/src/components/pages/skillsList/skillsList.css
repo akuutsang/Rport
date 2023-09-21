@@ -15,10 +15,17 @@
     font-size: 80px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
+    background: linear-gradient(90deg, rgb(225, 205, 227), rgb(207, 76, 222), rgb(84, 1, 93));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .SkillsListDes{
     margin: 20px 0px;
+    font-family:"Montserrat", sans-serif ;
+    font-weight: 400;
+    font-size:25px ;
 }
 
 .Lists{
