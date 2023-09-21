@@ -10,7 +10,7 @@ function Nav() {
           <div className="logo">Akutsang</div>
         </div>
         <div className="navRight">
-            <Link to="/" className="home">Home</Link>
+            <Link className="home">Home</Link>
             <Link className="about">About</Link>
             <Link className="skills">Skills</Link>
             <Link className="contact">Contact</Link>
