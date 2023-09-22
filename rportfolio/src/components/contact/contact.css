@@ -10,6 +10,7 @@
     width: 50%;
     -webkit-clip-path: polygon(50% 0%, 22% 50%, 50% 100%, 0% 50%);
     clip-path: polygon(50% 0%, 22% 50%, 50% 100%, 0% 50%);
+    z-index: -2;
 }
 
 .ContactContainer{
@@ -23,4 +24,66 @@
 
 .ContactRight{
     flex: 1;
+}
+
+.ContactTitle{
+    font-size: 30px;
+    width: 80%;
+    background: linear-gradient(90deg, rgb(227, 161, 235), rgb(84, 1, 93));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ContactInfoItem{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    font-size: 40px;
+
+}
+
+.ContactIcon{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+
+}
+
+.ContactDes{
+    font-weight: 900;
+    font-family: 'Poppings', sans-serif;
+    font-size: 50px;
+    background: linear-gradient(90deg, rgb(227, 161, 235), rgb(84, 1, 93));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-family: 'lato', sans-serif;
+    padding-left: 10px;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-family: 'lato', sans-serif;
+}
+
+.btn{
+    border: none;
+    padding: 15px;
+    color:rgb(227, 161, 235) ;
+    background-color: rgb(118, 4, 130);
 }
