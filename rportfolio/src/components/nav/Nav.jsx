@@ -14,6 +14,7 @@ function Nav() {
             <Link className="about">About</Link>
             <Link className="skills">Skills</Link>
             <Link className="contact">Contact</Link>
+            <Link className="Resume">Resume</Link>
             <div className="themeSvg">
             <svg
                       width="30"
