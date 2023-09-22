@@ -56,7 +56,7 @@
 }
 
 .introTitleContainer{
-    height: 100%;
+    height: 70%;
     animation: move 10s ease-in-out infinite alternate;
 }
 
