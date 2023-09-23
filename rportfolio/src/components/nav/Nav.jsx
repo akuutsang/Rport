@@ -1,9 +1,12 @@
 import "./nav.css"
 import { Link } from "react-router-dom"
 
+
+
 import React from "react"
 
 function Nav() {
+
   return (
     <div className="navSection">
         <div className="NavLeft">

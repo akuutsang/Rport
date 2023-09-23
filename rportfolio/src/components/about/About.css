@@ -66,3 +66,44 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+@media  screen and (max-width: 480px) {
+  .About{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .About-left{
+    width: 100%;
+  }
+  .AboutSubTitle{
+    text-align: center;
+  }
+
+  .About-card{
+    height: 30vh;
+  }
+
+  .About-card.bg{
+    display: none;
+  }
+
+  .firstSpan{
+    font-size: 20px;
+  }
+
+  .AboutSubTitle{
+    width: 100vw;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .SecondSpan{
+    font-size: 20px;
+  }
+
+  .About-right {
+    padding: 20px;
+  }
+
+}

@@ -34,3 +34,14 @@
 .Skills:hover .SkillsImg{
     transform: translateY(-100%);
 }
+
+@media  screen and (max-width: 480px) {
+    .Skills{
+        width: 40%;
+        height: 20vh;
+    } 
+    
+    
+    
+
+}
