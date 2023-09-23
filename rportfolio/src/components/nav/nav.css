@@ -34,28 +34,36 @@
     flex: 1;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     font-family:'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 900; 
 }
 .home{
     text-decoration: none;
+    padding: 25px;
 }
 
 .about{
     text-decoration: none;
+    padding: 25px;
+
 }
 
 .skills{
     text-decoration: none;
+    padding: 25px;
+
 }
 
 .contact{
     text-decoration: none;
+    padding: 25px;
+
 }
 
 .Resume{
     text-decoration: none;
+    padding: 25px;
+
 }
 
 
