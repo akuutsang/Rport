@@ -98,7 +98,7 @@
      right:0 ;
 } 
 
-@media  screen and (max-width: 480px) {
+@media  screen and (max-width: 769px) {
     .intro{
         display: flex;
         flex-direction: column;
@@ -112,7 +112,15 @@
         height: 100%;
     }
     .introDescription{
-        display: none;
+        width: 50vw;
+        text-align: center;
+    }
+    
+    .introRight{
+        width: 90vw;
+        align-content: center;
+        display: flex;
+        justify-content: center;
     }
 
 }

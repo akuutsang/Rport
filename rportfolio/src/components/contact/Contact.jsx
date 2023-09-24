@@ -45,14 +45,14 @@ export default function Contact() {
                     <div className="ContactInfoItem">
                         <img  src={phone} alt="" className='ContactIcon' />
                           +234-8138234134
-                </div>    
-                <div className="ContactInfoItem">
-                <img  src={email} alt="" className='ContactIcon' />
-                        akuutsang@gmail.com   
-                </div>
-                <div className="ContactInfoItem">
-                    <img  src={home} alt="" className='ContactIcon' />
-                        Lagos || Nigeria
+                    </div>    
+                    <div className="ContactInfoItem">
+                        <img  src={email} alt="" className='ContactIcon' />
+                           akuutsang@gmail.com   
+                    </div>
+                    <div className="ContactInfoItem">
+                        <img  src={home} alt="" className='ContactIcon' />
+                           Lagos || Nigeria
                 </div>
             </div>
             

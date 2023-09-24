@@ -35,12 +35,22 @@
     transform: translateY(-100%);
 }
 
-@media  screen and (max-width: 480px) {
+@media  screen and (max-width: 769px) {
     .Skills{
         width: 40%;
         height: 20vh;
     } 
     
+    .SkillsImg{
+        height: 17vh;
+        width: 20vw;
+        object-fit: cover;
+        transition: all 10s ease;
+    }
+
+    .Skills:hover .SkillsImg{
+        transform: translateY(-100%);
+    }
     
     
 
