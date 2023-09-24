@@ -12,6 +12,7 @@ import { useContext } from "react";
 export default function Contact() {
     const formRef = useRef();
     const [sent, setSend] = useState(false);
+    
 
     const handleSubmit = (e)=>{
         e.preventDefault();
@@ -34,6 +35,8 @@ export default function Contact() {
     <div className='Contact'>
         <div className="ContactBg"></div>
         <div className="ContactContainer">
+
+
             <div className="ContactLeft">
                 <div className="ContactTitle">
                     <h1>Let's talk about your project</h1>

@@ -1,4 +1,5 @@
 .navSection{
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     height: 70px;
@@ -9,6 +10,8 @@
     position: sticky;
     top: 0;
     z-index: 2;
+    cursor: pointer;
+
 }
 
 .NavLeft{
@@ -22,12 +25,10 @@
     background-color: rgb(118, 4, 130);
     color: rgb(197, 173, 219);
     border-radius: 50%;
-    width: 20%;
+    width: 20vw;
     padding: 8px;
     text-align: center;
 }
-
-
 
 
 .navRight{
@@ -35,42 +36,84 @@
     display: flex;
     flex-direction: row;
     font-family:'Montserrat', sans-serif;
-    font-weight: 900; 
-}
-.home{
-    text-decoration: none;
-    padding: 25px;
+    font-weight: 900;  
 }
 
-.about{
-    text-decoration: none;
-    padding: 25px;
 
+#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left : 10px ;
+  font-family: 'Montserrat', sans-serif ;
 }
 
-.skills{
-    text-decoration: none;
-    padding: 25px;
-
+#navbar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
 }
 
-.contact{
-    text-decoration: none;
-    padding: 25px;
-
+#navbar li a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(118, 4, 130);
+  transition: 0.3s ease-in-out;
 }
 
-.Resume{
-    text-decoration: none;
-    padding: 25px;
+#navbar li a:hover,
+#navbar li a.active {
+  color: rgb(190, 145, 233);
+}
 
+#navbar li a:hover::after,
+#navbar li a.active::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: rgb(118, 4, 130);
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.mobile{
+  display: none;
 }
 
 @media  screen and (max-width: 480px) {
-  
-    
+  #navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    position: fixed;
+    top: 90px;
+    right: -300px;
+    width: 200px;
+    height: 100vh;
+    background-color: rgb(23, 23, 23);
+    padding: 40px 0 0 10px;
+    transition: 0.3s ease-in-out;
+  }
 
+  #navbar.active{
+    right: 0px;
+  }
+
+  .mobile{
+    display: block;
+
+  }
+  #bar{
+    color: rgb(118, 4, 130);
+    font-size: 40px;
+    margin: 35px;
+  }
+  #navbar li{
+    margin-bottom: 30px;
+  }
+ 
 }
-
-
 
