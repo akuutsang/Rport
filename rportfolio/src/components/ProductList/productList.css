@@ -1,4 +1,4 @@
-.SkillsList{
+.ProductsList{
     padding: 50px 100px;
     display: flex;
     flex-direction: column;
@@ -7,11 +7,11 @@
     text-align: center;
 }
 
-.SkillsListText{
+.ProductsListText{
     width: 65%;
 }
 
-.SkillsListTitle{
+.ProductsListTitle{
     font-size: 80px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
@@ -21,7 +21,7 @@
 
 }
 
-.SkillsListDes{
+.ProductsListDes{
     margin: 20px 0px;
     font-family:"Montserrat", sans-serif ;
     font-weight: 400;
@@ -36,11 +36,11 @@
 }
 
 @media  screen and (max-width: 480px) {
-    .SkillsList{
+    .ProductsList{
         padding: 10px;
     }
 
-    .SkillsListText{
+    .ProductsListText{
         width: 100%;
     }
     

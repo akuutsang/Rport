@@ -1,33 +1,36 @@
-import Nav from "./components/nav/Nav"
-import Intro from './components/intro/Intro'
-import About from './components/about/About';
-import SkillsList from "./components/skillsList/SkillsList";
+import React, { useContext } from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Nav from "./components/nav/Nav";
+import Intro from "./components/intro/Intro";
+import About from "./components/about/About";
+import ProductsList from "./components/ProductList/ProductsList";
 import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./components/Context";
-import { useContext } from "react";
 
-const App= () =>{
+const App = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
-    const theme = useContext (ThemeContext);
-    const darkMode = theme.state.darkMode;
-    
-   return ( 
-    <div 
-    style={{ 
-      background:darkMode ? "#222" : "white", 
-      color: darkMode && "white"
-    }}
+  return (
+    <div
+      style={{
+        background: darkMode ? "#222" : "white",
+        color: darkMode && "white",
+      }}
     >
       <Nav />
-      <Intro />
-      <About />
-      <SkillsList />
-      <Contact />
+      <Routes>
+        <Route path="/home" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/products" element={<ProductsList />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/" element={<Intro />}></Route>
+      </Routes>
       <Toggle />
     </div>
   );
-   
-}
+};
 
 export default App;

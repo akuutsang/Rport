@@ -1,4 +1,4 @@
-.Skills{
+.Products{
     width: 30%;
     height: 40vh;
     margin: 20px 10px;
@@ -26,29 +26,29 @@
 
 }
 
-.SkillsImg{
+.ProductsImg{
     width: 100%;
     transition: all 10s ease;
 }
 
-.Skills:hover .SkillsImg{
+.Products:hover .ProductsImg{
     transform: translateY(-100%);
 }
 
 @media  screen and (max-width: 769px) {
-    .Skills{
+    .Products{
         width: 40%;
         height: 20vh;
     } 
     
-    .SkillsImg{
+    .ProductsImg{
         height: 17vh;
         width: 20vw;
         object-fit: cover;
         transition: all 10s ease;
     }
 
-    .Skills:hover .SkillsImg{
+    .Products:hover .ProductsImg{
         transform: translateY(-100%);
     }
     
