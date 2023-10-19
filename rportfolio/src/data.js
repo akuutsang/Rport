@@ -7,7 +7,7 @@ export const products = [
   {
     id: 2,
     img: "/assets/adminDashboard.png",
-    link: "https://6531517573c168355536d588--boisterous-bubblegum-491763.netlify.app/",
+    link: "https://boisterous-bubblegum-491763.netlify.app/",
   },
   {
     id: 3,
