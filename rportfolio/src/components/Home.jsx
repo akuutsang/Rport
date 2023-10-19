@@ -1,8 +1,8 @@
 import React from "react";
-import About from "./about/About";
-import Contact from "./contact/Contact";
+import About from "../pages/about/About";
+import Contact from "../pages/contact/Contact";
 import Intro from "./intro/Intro";
-import ProductsList from "./ProductList/ProductsList";
+import ProductsList from "../pages/ProductList/ProductsList";
 
 function Home() {
   return (
