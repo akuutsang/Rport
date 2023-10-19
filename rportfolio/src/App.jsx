@@ -1,11 +1,10 @@
 import React, { useContext } from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
 import Nav from "./components/nav/Nav";
 import Intro from "./components/intro/Intro";
-import About from "./components/about/About";
-import ProductsList from "./components/ProductList/ProductsList";
-import Contact from "./components/contact/Contact";
+import About from "./pages/about/About";
+import ProductsList from "./pages/ProductList/ProductsList";
+import Contact from "./pages/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./components/Context";
 

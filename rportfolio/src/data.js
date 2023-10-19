@@ -1,5 +1,10 @@
 export const products = [
   {
+    id: 1,
+    img: "assets/calculator.png",
+    link: "https://akuutsang.github.io/Calculator/",
+  },
+  {
     id: 2,
     img: "assets/adminDashboard.png",
     link: "https://deft-faun-58342b.netlify.app/",
@@ -14,11 +19,7 @@ export const products = [
     img: "assets/sketchPad.png",
     link: "https://github.com/akuutsang/Etch-A-Sketch",
   },
-  {
-    id: 1,
-    img: "assets/calculator.png",
-    link: "https://akuutsang.github.io/Calculator/",
-  },
+
   {
     id: 5,
     img: "assets/prs.png",
