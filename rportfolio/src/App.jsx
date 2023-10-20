@@ -7,6 +7,7 @@ import ProductsList from "./pages/ProductList/ProductsList";
 import Contact from "./pages/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./components/Context";
+import Shared from "./pages/shared/Shared";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/products" element={<ProductsList />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/" element={<Intro />}></Route>
+        <Route path="/shared" element={<Shared />}></Route>
       </Routes>
       <Toggle />
     </div>
