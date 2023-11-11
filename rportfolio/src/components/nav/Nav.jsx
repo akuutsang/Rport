@@ -1,17 +1,9 @@
 import "./nav.css";
 import React from "react";
-import { Component } from "react";
-import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Shared } from "../../pages/shared/Shared";
-// import About from "../about/About";
-// import SkillsList from "../skillsList/SkillsList";
-// import Contact from "../contact/Contact";
-// import Intro from "../intro/Intro";
 
 export default function Nav() {
-  const navigate = useNavigate();
   const [clicked, setClicked] = useState(false);
   const handleClick = () => {
     setClicked(!clicked);
@@ -40,10 +32,12 @@ export default function Nav() {
             <li>
               <Link to="contact">Contact</Link>
             </li>
+            <li>
+              <Link to={"/CanvasTest"}>CanvasTest</Link>{" "}
+            </li>
 
             <li>
               <Link to={"/Shared"}>Resume</Link>{" "}
-              {/* Link to the Resume route */}
             </li>
           </ul>
         </div>

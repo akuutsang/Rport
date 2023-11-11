@@ -8,6 +8,8 @@ import Contact from "./pages/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./components/Context";
 import Shared from "./pages/shared/Shared";
+import Skills from "./components/skills/Skills";
+import CanvasTest from "./components/canvas/CanvasTest";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -26,8 +28,10 @@ const App = () => {
         <Route path="/about" element={<About />}></Route>
         <Route path="/products" element={<ProductsList />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/skills" element={<Skills />}></Route>
         <Route path="/" element={<Intro />}></Route>
         <Route path="/shared" element={<Shared />}></Route>
+        <Route path="/CanvasTest" element={<CanvasTest />}></Route>
       </Routes>
       <Toggle />
     </div>

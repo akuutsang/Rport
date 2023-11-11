@@ -1,0 +1,16 @@
+.wrapperContainer{
+    height: 100%;
+    width: 100%;
+}
+.SkillsTitle{
+    background-color: aqua;
+    align-content: center;
+}
+
+.wrapper{
+    background-color: blueviolet;
+
+}
+.img{
+    display: flex;
+  }

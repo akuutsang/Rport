@@ -105,4 +105,13 @@ textarea{
         width: 80vw;
         text-align: center;
     }
+
+    .ContactDes{
+        font-weight: 400;
+        font-family: 'Poppings', sans-serif;
+        font-size: 30px;
+        background: linear-gradient(90deg, rgb(227, 161, 235), rgb(84, 1, 93));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }

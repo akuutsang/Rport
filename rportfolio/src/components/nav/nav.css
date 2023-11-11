@@ -83,6 +83,18 @@
 }
 
 @media  screen and (max-width: 769px) {
+  .logo{
+    font-family: "Dancing Script", sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+    background-color: rgb(118, 4, 130);
+    color: rgb(197, 173, 219);
+    border-radius: 50%;
+    width: 10vw;
+    padding: 8px;
+    text-align: center;
+}
+  
   #navbar{
     display: flex;
     flex-direction: column;

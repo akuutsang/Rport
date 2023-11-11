@@ -7,14 +7,22 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@mediapipe/tasks-vision": "^0.10.8",
     "@mui/material": "^5.14.10",
+    "@react-three/drei": "^9.88.13",
+    "@react-three/fiber": "^8.15.10",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/three": "^0.158.2",
+    "framer-motion": "^10.16.4",
+    "loader": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.17.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.1.1",
+    "three": "^0.158.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -42,6 +50,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.0.0",
+    "tailwindcss": "^3.3.5"
   }
 }
