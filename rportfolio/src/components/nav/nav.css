@@ -16,6 +16,7 @@
 
 .NavLeft{
     flex:1;
+    text-decoration: none;
 }
 
 .logo{
@@ -28,6 +29,7 @@
     width: 10vw;
     padding: 8px;
     text-align: center;
+    text-decoration: none;
 }
 
 
@@ -85,7 +87,7 @@
 @media  screen and (max-width: 769px) {
   .logo{
     font-family: "Dancing Script", sans-serif;
-    font-size: 15px;
+    font-size: 10px;
     padding-left: 20px;
     background-color: rgb(118, 4, 130);
     color: rgb(197, 173, 219);

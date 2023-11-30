@@ -89,6 +89,14 @@ textarea{
 }
 
 @media  screen and (max-width: 769px) {
+    .Contact{
+        height: 100vh;
+        padding-bottom: 300px;
+    }
+    .ContactBg{
+        background-color: aqua;
+    }
+
     .ContactContainer{
         width: 89vw;
         display: flex;
@@ -114,4 +122,11 @@ textarea{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+
+.btn{
+    border: none;
+    margin-bottom: 50px;
+    color:rgb(227, 161, 235) ;
+    background-color: rgb(118, 4, 130);
+}
 }

@@ -9,7 +9,7 @@ import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./components/Context";
 import Shared from "./pages/shared/Shared";
 import Skills from "./components/skills/Skills";
-import CanvasTest from "./components/canvas/CanvasTest";
+import { FullPage } from "./components/fullPage/FullPage";
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -31,8 +31,9 @@ const App = () => {
         <Route path="/skills" element={<Skills />}></Route>
         <Route path="/" element={<Intro />}></Route>
         <Route path="/shared" element={<Shared />}></Route>
-        <Route path="/CanvasTest" element={<CanvasTest />}></Route>
+        <Route path="/fullpage" element={<FullPage />}></Route>
       </Routes>
+
       <Toggle />
     </div>
   );

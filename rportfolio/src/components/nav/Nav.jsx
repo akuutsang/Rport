@@ -11,13 +11,13 @@ export default function Nav() {
   return (
     <>
       <nav className="navSection">
-        <div className="NavLeft">
+        <Link className="NavLeft" to="/fullpage">
           <div className="logo">Akutsang</div>
-        </div>
+        </Link>
         <div className="navRight">
           <ul id="navbar" className={clicked ? ".navbar active" : ".navbar"}>
             <li>
-              <Link className="active" to="/">
+              <Link className="active" to="/fullpage">
                 Home
               </Link>
             </li>
@@ -32,10 +32,6 @@ export default function Nav() {
             <li>
               <Link to="contact">Contact</Link>
             </li>
-            <li>
-              <Link to={"/CanvasTest"}>CanvasTest</Link>{" "}
-            </li>
-
             <li>
               <Link to={"/Shared"}>Resume</Link>{" "}
             </li>

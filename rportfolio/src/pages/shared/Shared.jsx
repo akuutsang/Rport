@@ -1,14 +1,13 @@
 import React from "react";
-import "./shared.css";
+import MyPdfViewer from "../MyPdfViewer";
 
-export default function Shared() {
+const Shared = () => {
   return (
-    <div className="Shared">
-      <iframe
-        title="Shared Document"
-        src="https://docs.google.com/document/d/1hYSDhKSCujhDk3K-xWhRV8R1hATXXX_pQToQRgc0DEU/preview"
-        className="SharedIframe"
-      ></iframe>
+    <div>
+      <h1>My Cv</h1>
+      <MyPdfViewer />
     </div>
   );
-}
+};
+
+export default Shared;
